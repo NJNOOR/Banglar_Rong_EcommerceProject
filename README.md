@@ -97,4 +97,75 @@ if (!$con) {
 ### Step 5: Run Application
 Place project in web server directory
 
-Access via: http://localhost/banglar-rong/
+
+### 🎮 Features in Detail
+
+## 👥 User Management
+
+Registration System: New user signup with email verification
+
+Login/Logout: Secure authentication with session management
+
+Profile Management: Update personal information and address
+
+Password Reset: Secure password recovery via email
+
+## 🛒 Shopping Experience
+
+Product Browsing: View products by categories and brands
+
+Product Details: Detailed view with multiple images
+
+Shopping Cart: Add/remove products with quantity adjustment
+
+Wishlist: Save products for later purchase
+
+## 💳 Checkout Process
+
+Multiple Payment Methods: bKash, Cash on Delivery
+
+Address Management: Save and select delivery addresses
+
+Order Confirmation: Email notification for successful orders
+
+Order Tracking: View order status and history
+
+## 👨‍💼 Admin Dashboard
+
+Product Management: Add, edit, delete products
+
+Category & Brand Management: Organize product catalog
+
+Order Processing: Update order status and manage deliveries
+
+User Management: View and manage customer accounts
+
+Sales Reports: Generate sales analytics and reports
+
+## 🔐 Security Implementation
+
+Authentication Security
+Password Hashing: Bcrypt algorithm with cost factor 4
+
+Email Verification: OTP-based account activation
+
+Session Management: Secure session handling with timeout
+
+Login Protection: Attempt limiting and brute force prevention
+
+## 📱 Responsive Design
+
+The platform is built with a mobile-first approach using Bootstrap 5:
+
+Cross-Device Compatibility: Fully responsive on all screen sizes
+
+Touch-Friendly Interface: Optimized for mobile and tablet use
+
+Accessibility Features: Proper contrast and keyboard navigation
+
+
+### 👤 Author
+Naznin Jahan Noor
+
+Email: nazninjahannoor@gmail.com
+
