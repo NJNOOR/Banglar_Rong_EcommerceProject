@@ -65,17 +65,23 @@ banglar-rong/
 ### Prerequisites
 - PHP 7.4 or higher
 - MySQL 5.7 or higher
-- Apache/Nginx web server
+- Apache web server
 - Composer (for dependency management)
 
 ### Step 1: Clone Repository
 
+bash
+
 git clone https://github.com/yourusername/Banglar_Rong_EcommerceProject.git
+
 cd banglar-rong
+
 ### Step 2: Install Dependencies
 bash
 composer install
+
 ### Step 3: Database Configuration
+
 Create MySQL database:
 
 sql
@@ -84,6 +90,7 @@ Import database schema:
 
 bash
 mysql -u your_username -p banglar_rong < database/mydb.sql
+
 ### Step 4: Update Configuration
 Edit includes/connect.php with your database credentials:
 
